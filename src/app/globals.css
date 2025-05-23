@@ -7,12 +7,14 @@
   --background: #001e57;
   --foreground: #171717;
   --buttonBg: #EB5301;
+  --grayText: #474747;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --color-buttonBg: var(--buttonBg);
+  --color-grayText: var(--grayText);
   --font-radio-canada-big: var(--font-geist-big);
   --font-mono: var(--font-geist-mono);
 }

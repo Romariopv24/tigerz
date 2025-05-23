@@ -15,7 +15,7 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
         buttonBg: "var(--button)",
-        bluetext: "var(--bluetext)",
+        grayText: "var(--grayText)",
       },
     },
   },

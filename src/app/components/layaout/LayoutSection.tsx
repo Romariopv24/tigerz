@@ -27,10 +27,10 @@ export const LayoutSection = () => {
             </nav>
           </header>
 
-          <div className="relative isolate px-6 pt-14 lg:px-8">
+          <div className="relative isolate px-3 pt-14 lg:px-8">
             <div className="mx-auto max-w-2xl max-h-1/2 pt-32  lg:py-56">
               <div className="text-left">
-                <h1 className="font-bold uppercase tracking-tight text-bluetext text-4xl md:text-5xl lg:text-7xl">
+                <h1 className="font-bold uppercase tracking-tight text-4xl md:text-5xl lg:text-7xl">
                   Get a Custom-Built Website in Just 7 Days
                 </h1>
                 <p className="mt-8 text-pretty text-sm">Or... We give you 50% back</p>
