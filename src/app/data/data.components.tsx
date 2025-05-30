@@ -20,6 +20,12 @@ interface ThirdSectionData {
     description: string
 }
 
+interface FifthSectionData {
+    title: string
+    points: string[]
+    image: string
+}
+
 export const firstSectionInfoCard: FirstSectionInfoCard[]= [
     {
         title:" Ready In A Blink",
@@ -103,4 +109,33 @@ export const thirdSectionData: ThirdSectionData[] = [
         description: "On Day 7, your site goes live, or we give you 50% back. Plain and simple."
     },
     
+]
+
+
+export const fifthySectionData: FifthSectionData[] = [
+    {
+        title: "Restaurants & food trucks",
+        points: ["Book a Table Landing page.", "Menu and location landing page.", "All of the above!"],
+        image: rootImages.time
+    },
+    {
+        title: "Freelancers & personal brands",
+        points: ["Personal portfolio or resume site.", "Book a call or buy service.", "Or... Both!"],
+        image: rootImages.time
+    },
+    {
+        title: "Startups ready to shine",
+        points: ["Validate your idea with real site.", "Collect leads or investor interest.", "Built to grow with you."],
+        image:  rootImages.time
+    },
+    {
+        title: "Service based businesses",
+        points: ["Landing page with service & pricing.", "Contact form for direct inquiries.", "All set in one place!."],
+        image: rootImages.time
+    },
+    {
+        title: "DIY-site survivors",
+        points: ["No more clunky web builders.", "Designed to match your brand, no drag and drop mess.", "How it should've been"],
+        image: rootImages.time
+    },
 ]

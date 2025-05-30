@@ -1,3 +1,4 @@
+import { FifthySection } from "./components/fifthySection/FifthySection";
 import { FirstSection } from "./components/firstSection/FirstSection";
 import { FourthySection } from "./components/fourthySection/FourthySection";
 import { LayoutSection } from "./components/layaout/LayoutSection";
@@ -12,6 +13,7 @@ export default function Home() {
      <SecondSection/>
      <ThirSection />
      <FourthySection />
+     <FifthySection />
      </>
   );
 }
