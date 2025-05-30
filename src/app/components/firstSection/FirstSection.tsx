@@ -1,10 +1,10 @@
 import React from 'react'
 import { Card } from '../ui/card'
 import Image from 'next/image'
-import { infoCardData } from './InfoCard'
+import { firstSectionInfoCard } from '@/app/data/data.components'
 
 export const FirstSection = () => {
-  const infocardData = infoCardData
+  const infocardData = firstSectionInfoCard
 
   return (
     <div className="pt-24">

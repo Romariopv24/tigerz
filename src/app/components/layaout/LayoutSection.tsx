@@ -1,6 +1,7 @@
 import { rootImages } from '@/app/core/rootImages'
 import Image from 'next/image'
 import { MobileMenu } from './MobileMenu'
+import { ButtonALink } from '../ui/button.a'
 
 export const LayoutSection = () => {
   return (
@@ -35,9 +36,7 @@ export const LayoutSection = () => {
                 </h1>
                 <p className="mt-8 text-pretty text-sm">Or... We give you 50% back</p>
                 <div className="mt-10 flex items-left justify-start gap-x-6">
-                  <a href="#about" className="rounded-2xl bg-buttonBg px-3.5 py-2.5 text-base text-white shadow-xl/20 hover:bg-[#B33F00] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">
-                    Let&apos;s do it!
-                  </a>
+                  <ButtonALink text={"Let's do it!"} section={'about'}/>
                 </div>
               </div>
             </div>

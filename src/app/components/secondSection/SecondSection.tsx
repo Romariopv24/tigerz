@@ -1,12 +1,12 @@
 import React from 'react'
-import { sectionData } from './sectionData'
 import Image from 'next/image'
 import { rootImages } from '@/app/core/rootImages'
+import { secondSectionData } from '@/app/data/data.components'
 
 export const SecondSection = () => {
-    const sectionDatax = sectionData
+    const sectionData = secondSectionData
   return (
-        <div className="lg:pt-32">
+        <div className="lg:pt-32 ">
         <div className="mx-auto max-w-7xl px-3 lg:px-8">
                <div className="mx-auto max-w-2xl lg:text-center">
         <p className="mt-2 text-3xl text-white text-left lg:text-center font-bold tracking-tight text-pretty uppercase sm:text-5xl lg:text-balance">
@@ -14,9 +14,9 @@ export const SecondSection = () => {
         </p>
       </div>
          </div>
-         <div className='flex flex-col justify-center max-w-7xl p-5 w gap-3 lg:gap-10 '>
-            {sectionDatax.map((item, index) => (
-                <div key={index} className='flex flex-col justify-center'>
+         <div className='flex mx-auto place-content-center flex-col justify-center max-w-7xl p-5 w gap-3 lg:gap-10 '>
+            {sectionData.map((item, index) => (
+                <div key={index} className='flex flex-col lg:mx-auto justify-center'>
                     <p className='text-white'>{item.description}</p>
                     {item.options && item.options.length > 0 && (
                         <ul className='list-disc pl-5'>
